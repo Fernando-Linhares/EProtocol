@@ -3,8 +3,8 @@
 class Connect
 {
     private const HOST = 'localhost';
-    private const USER = 'fernando';
-    private const PASSWORD = '321Fer123';
+    private const USER = 'root';
+    private const PASSWORD = '';
     private const DB = "protocol";
     private const OPTIONS = [
         PDO::MYSQL_ATTR_INIT_COMMAND=>"SET NAMES utf8",
